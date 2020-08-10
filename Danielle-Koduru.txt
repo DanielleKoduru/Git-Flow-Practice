@@ -1,0 +1,75 @@
+# Git-Flow-Practice
+
+This project is designed for one to practice the Git/Github workflow here at Lambda School. You will be able to follow along with [this pre-class video](https://youtu.be/4fLr6ah82bE) and use this assignment to demonstrate your ability to work within this flow. Watch this video, then follow the instructions listed below to complete the assignment
+
+## Directions to complete this assignment
+
+- [x] Create your own version of this repo - Fork
+- [x] Add your PM as a collaborator
+- [x] Clone this repo
+- [x] Create a branch `git checkout -b 'firstName-lastName'`
+  - [x] Add your name to the list of names below.
+  - [x] Run your usual git commands or adding/commiting and pushing **Be sure to push to your branch**
+- [x] Create a Pull-Request to submit your work
+  - [x] Use your own student fork as the base (compare across forks, base-fork -> master).
+  - [x] Add your PM as a reviewer on the Pull-Request
+- [x] PM then will count the Assignment as done by merging the HW back into master "STUDENT FORK".
+
+## ADD your name here
+
+- Steve Rogers
+- Ryan Hamblin
+- Danielle Koduru
+
+
+<!-- Questions to Submit in today's file first-lastname.txt --> 
+<!--
+Copy the questions below into the first-lastname.txt file on your github repo - answer each question and then push your changes. 
+
+    1. What is Semantic HTML? It reinforces the meaning of HTML other than just defining what it is. 
+    2. What is HTML used for? It is a mark up language. It displays data.
+    3. What is an attribute and where do we put it? An attribute tag is like a header, footer, body, section, h1 (etc). They are used to identify and map out the structure of HTML 
+    4. What is the h1 tag used for?  How many times should I use it on a page? H1 is used for an important or main headline. We use it once.
+    5. Name two tags that have required attributes. div and span
+    6. What do we put in the head of our HTML document? Header
+    7. What is an id? it belongs to a single element
+    8. What elements can I add an id to? a div
+    9. How many times can I use the same id on a page? twice. for opening and closing
+    10. What is a class? it belongs to multiple elements
+    11. What elements can I add a class to? footer, header, body
+    12. How many times can I use the same class on a page? Twice, for opening and closing brackets
+    13. How do I get my link to open in a new tab? click and drag the link 
+    14. What is the alt attribute in the image tag used for? It is used to display an alternative image in case the original image cannot be displayed (i.e. poor connection, etc.)
+    15. How do I reference an id? #
+    16. What is the difference between a section and a div? A div is used more for styling of similar section or paragraph. A section is used for styling a small section, group of words, etc, differently than the rest. 
+    17. What is CSS used for? styling and layout of a page
+    18. How to we select an element? Example - every h2 on the page. *h2
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one. Class-.hover Id-#container
+    20. How do we select classes in CSS? <div class="enter class here">
+    21. How do we select a p element with a single class of “human””? span maybe...
+    22. What is a parent child selector? When would this be useful? Parent/child selectors are helpful for organizing and knowing the flow of your HTML. It helps to then be able to identify these selectors in CSS.
+    23. How do you select all links within a div with the class of sidebar? a.link
+    24. What is a pseudo selector? a keyword added to s selector, like :hover
+    25. What do we use the change the spacing between lines? line-height property
+    26. What do we use to change the spacing between letters? letter-spacing property
+    27. What do we use to to change everything to CAPITALS? Text-transform "uppercase"
+        lowercase? Text-transform "lowercase"
+        Capitalize? Text-transform "capatilize"
+    28. How do I add a 1px border around my div that is dotted and black? div {border:1px; color:black; outline-style dotted;}
+    29. How do I select everything on the page? * 
+    30. How do I write a comment in CSS? start and end the comment with /* insert comment here/*
+    31. How do I find out what file I am in, when I am using the command line? It will display the file at the top of the text box
+    32. Using the command line - how do I see a list of files/folders in my current folder? LS
+    33. How do I remove a file via the command line? Why do I have to be careful with this? RM. It permenantly deletes the file. We should be careful becuase there is no going back.
+    34. Why should I use version control? Because it allows individuals to collaborate and work on a project together, allowing the changes to flow well together.
+    35. How often should I commit to github? when I add instructions or comments.
+    36. What is the command we would use to push our repo up to github? git push origin 'daniellekoduru'
+    37. Walk me through Lambda's git flow. 1. Fork, 2. Collaborate, 3. Clone, 4. Branch, 5. Submit
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element? Block elements cause a breakline. Inline elements dont need a new line.
+    2. What happens when an element is positioned absolutely? It doesnt exist in the normal layout of the document, it sits seperate from evrything else. 
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
