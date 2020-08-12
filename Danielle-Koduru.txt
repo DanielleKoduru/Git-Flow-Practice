@@ -48,7 +48,7 @@ Copy the questions below into the first-lastname.txt file on your github repo - 
     20. How do we select classes in CSS? <div class="enter class here">
     21. How do we select a p element with a single class of “human””? span maybe...
     22. What is a parent child selector? When would this be useful? Parent/child selectors are helpful for organizing and knowing the flow of your HTML. It helps to then be able to identify these selectors in CSS.
-    23. How do you select all links within a div with the class of sidebar? a.link
+    23. How do you select all links within a div with the class of sidebar? .sidebar a
     24. What is a pseudo selector? a keyword added to s selector, like :hover
     25. What do we use the change the spacing between lines? line-height property
     26. What do we use to change the spacing between letters? letter-spacing property
